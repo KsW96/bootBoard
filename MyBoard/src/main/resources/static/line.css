@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+.header {
+    display: flex; /* 요소들을 가로로 정렬하기 위해 Flexbox 사용 */
+    justify-content: space-between; /* 요소들을 양쪽 끝으로 분산 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    background-color: #333; /* 배경색 지정 (선택사항) */
+    padding: 15px; /* 상하좌우 여백 추가 (선택사항) */
+}
+
+.header a {
+    text-decoration: none; /* 링크 밑줄 제거 (선택사항) */
+    color: #fff; /* 링크 텍스트 색상 지정 (선택사항) */
+    margin: 0 10px; /* 링크 간격 (선택사항) */
+}
+
+#search {
+    padding: 10px; /* 입력 상자의 패딩 수정 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* 입력 상자의 너비 수정 (원하는 크기로 조절) */
+    font-size: 16px; /* 입력 상자의 글꼴 크기 수정 (원하는 크기로 조절) */
+}
+
+#submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* 검색 버튼의 패딩 수정 */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* 검색 버튼의 글꼴 크기 수정 (원하는 크기로 조절) */
+}
+
+#login_Btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* 로그인 버튼의 패딩 수정 */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* 로그인 버튼의 글꼴 크기 수정 (원하는 크기로 조절) */
+}
+
+.home_key {
+    font-size: 35px;
+    font-style: calc();
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    background-color: #333;
+    overflow-x: hidden;
+}
